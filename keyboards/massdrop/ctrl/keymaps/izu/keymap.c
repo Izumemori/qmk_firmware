@@ -1,5 +1,6 @@
 #include QMK_KEYBOARD_H
 #define TG_NKRO MAGIC_TOGGLE_NKRO
+#define NO_AUTO_SHIFT_ALPHA
 
 enum ctrl_keycodes {
     U_T_AUTO = SAFE_RANGE, //USB Extra Port Toggle Auto Detect / Always Active
